@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("imgs/main.webp");
+    background-size: cover;
+  }
+  .hedding {
+    font-family: Josefin Sans 700;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    opacity: 0.98;
+    background-color: white;
+  }
+  .hedding-containor {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 800px;
+  }
+
+  .second-containor {
+    background-color: rgb(248, 248, 248);
+    height: 240px;
+    width: 804px;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.9;
+  }
+  .first-containor,
+  .second-containor,
+  .hedding-containor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-containor {
+    align-items: center;
+    height: 646px;
+  }
+
+  ul#measurement-types {
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+  }
+  ul#measurement-types li {
+    height: auto;
+    margin: 10px;
+    padding: 0;
+    float: left;
+  }
+  ul#measurement-types li a {
+    display: inline-flex;
+    color: black;
+    background-color: rgb(224, 220, 220);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    font-size: 18px;
+    text-decoration: none;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(160, 157, 157);
+    height: 60px;
+    width: 85px;
+    word-wrap: break-word;
+    font-weight: bold;
+    border-radius: 12px;
+    line-height: 20px;
+    box-shadow: 5px 5px 5px rgb(155, 155, 155);
+  }
+  ul#measurement-types li a:hover {
+    transition: 0.5s;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+  }
+  @media (max-width: 390px) {
+  }
+
+
+
+
+
+  .main-content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .main-content1 h1{
+     background-color: white;
+     height: auto;
+     font-size: 40px;
+     padding: 10px;
+     border-radius: 5px;
+   }
+   .main-content1 form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: white;
+     padding: 20px;
+     border-radius: 10px;
+   }
+   .entry{
+     padding: 20px;
+     opacity: 0.95;
+   }
+   .entry label{
+     font-size: 28px;
+     border-radius: 5px;
+     
+   }
+   .entry input{
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+   
+   }
+   .entry select{
+     height: 30px;
+     border-radius: 5px;
+     
+   }
+   .form-submit-button{
+     background-color: aquamarine;
+   }
